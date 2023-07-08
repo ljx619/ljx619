@@ -8,6 +8,6 @@ public class AnimalDemo {
         a.eat();
         System.out.println(a.getAge()+"，"+a.getName());
         inter i = new Cat();
-        i.jumping();
+        i.jump();
     }
 }

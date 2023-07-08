@@ -14,7 +14,7 @@ public class Dog extends Animal implements inter {
     }
 
     @Override
-    public void jumping() {
-        System.out.println("狗可以跳起来了");
+    public void jump() {
+        System.out.println("狗可以跳起来了"
     }
 }
