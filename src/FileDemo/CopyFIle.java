@@ -43,6 +43,7 @@ public class CopyFIle {
         while((st = br.readLine())!=null){
             bw.write(st);
             bw.newLine();
+            bw.flush();
         }
         br.close();
         bw.close();
