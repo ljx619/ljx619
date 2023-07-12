@@ -16,18 +16,18 @@ public class SellTicket implements Runnable{
 
 
         while(true){
-            lc.lock();
+//            lc.lock();
 //            symethod();
             if (ticket > 0) {
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
+//                try {
+//                    Thread.sleep(100);
+//                } catch (InterruptedException e) {
+//                    throw new RuntimeException(e);
+//                }
                 System.out.println(Thread.currentThread().getName() + ":" + ticket);
                 ticket--;
             }
-            lc.unlock();
+//            lc.unlock();
         }
 
     }
